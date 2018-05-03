@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37f3ec4e-a815-4b43-b3bd-0f80c53f42b8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/travel_agency.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/travel_agency.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/hotel.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/hotel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/abcd.py" beforeDir="false" afterPath="$PROJECT_DIR$/abcd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +15,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="hotel.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/hotel.html">
+      <file leaf-file-name="abcd.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/abcd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="260" lean-forward="true" selection-start-line="260" selection-end-line="260" />
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="._index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/__MACOSX/travel/._index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="48" column="30" lean-forward="true" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vacation.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/vacation.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flight.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/flight.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -47,6 +79,8 @@
       <find>air</find>
       <find>searc</find>
       <find>ha</find>
+      <find>style</find>
+      <find>stylesheet</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -59,8 +93,9 @@
         <option value="$PROJECT_DIR$/travel/flight.html" />
         <option value="$PROJECT_DIR$/travel/car.html" />
         <option value="$PROJECT_DIR$/travel/abcd.py" />
+        <option value="$PROJECT_DIR$/templates/vacation.html" />
         <option value="$PROJECT_DIR$/abcd.py" />
-        <option value="$PROJECT_DIR$/templates/hotel.html" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
       </list>
     </option>
   </component>
@@ -74,10 +109,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="82" />
-    <option name="y" value="22" />
-    <option name="width" value="1753" />
-    <option name="height" value="973" />
+    <option name="x" value="84" />
+    <option name="y" value="24" />
+    <option name="width" value="1751" />
+    <option name="height" value="971" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -91,6 +126,31 @@
             <path>
               <item name="travel_agency" type="b2602c69:ProjectViewProjectNode" />
               <item name="travel_agency" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="travel_agency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="travel_agency" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="travel_agency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="travel_agency" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="travel_agency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="travel_agency" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap.css" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="travel_agency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="travel_agency" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
+              <item name="style.css" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
               <item name="travel_agency" type="b2602c69:ProjectViewProjectNode" />
@@ -109,7 +169,6 @@
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -123,10 +182,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.hotel.html">
+  <component name="RunManager" selected="Python.abcd">
     <configuration name="car.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/travel_agency/travel/car.html" />
     <configuration name="flight.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/travel_agency/travel/flight.html" />
-    <configuration name="hotel.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/travel_agency/templates/hotel.html" />
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/travel_agency/travel/index.html" />
     <configuration name="abcd" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="travel_agency" />
@@ -152,11 +210,9 @@
       <item itemvalue="JavaScript Debug.car.html" />
       <item itemvalue="JavaScript Debug.flight.html" />
       <item itemvalue="JavaScript Debug.index.html" />
-      <item itemvalue="JavaScript Debug.hotel.html" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.hotel.html" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.car.html" />
         <item itemvalue="JavaScript Debug.flight.html" />
@@ -204,28 +260,42 @@
       <option name="project" value="LOCAL" />
       <updated>1525322432430</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="commit add of abcd entire">
+      <created>1525322942471</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1525322942471</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14587000" />
+    <option name="totallyTimeSpent" value="14469000" />
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1478" height="878" extended-state="6" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32965517" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Python Console" order="8" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="right" id="R Packages" order="3" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -234,7 +304,6 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -253,15 +322,10 @@
     <MESSAGE value=" car again" />
     <MESSAGE value="travel commit" />
     <MESSAGE value="commit add of abcd" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit add of abcd" />
+    <MESSAGE value="commit add of abcd entire" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit add of abcd entire" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/travel/index.html" />
-    <entry file="file://$PROJECT_DIR$/travel/index.html" />
-    <entry file="file://$PROJECT_DIR$/travel/flight.html" />
-    <entry file="file://$PROJECT_DIR$/travel/car.html" />
-    <entry file="file://$PROJECT_DIR$/travel/index.html" />
-    <entry file="file://$PROJECT_DIR$/travel/hotel.html" />
     <entry file="file://$PROJECT_DIR$/abcd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -288,64 +352,34 @@
     <entry file="file://$PROJECT_DIR$/travel/car.html" />
     <entry file="file://$PROJECT_DIR$/travel/abcd.py" />
     <entry file="file://$PROJECT_DIR$/travel/index.html" />
+    <entry file="file://$PROJECT_DIR$/__MACOSX/travel/._index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/flight.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/vacation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/abcd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/hotel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="260" lean-forward="true" selection-start-line="260" selection-end-line="260" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/abcd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travel/index.html" />
-    <entry file="file://$PROJECT_DIR$/travel/car.html" />
-    <entry file="file://$PROJECT_DIR$/travel/backend/bottle.py" />
-    <entry file="file://$PROJECT_DIR$/travel/index.html" />
-    <entry file="file://$PROJECT_DIR$/travel/backend/bottle.py" />
-    <entry file="file://$PROJECT_DIR$/travel/backend/bottle.py" />
-    <entry file="file://$PROJECT_DIR$/travel/car.html" />
-    <entry file="file://$PROJECT_DIR$/travel/index.html" />
-    <entry file="file://$PROJECT_DIR$/travel/index.html" />
-    <entry file="file://$PROJECT_DIR$/travel/index.html" />
-    <entry file="file://$PROJECT_DIR$/travel/car.html" />
-    <entry file="file://$PROJECT_DIR$/travel/index.html" />
-    <entry file="file://$PROJECT_DIR$/travel/index.html" />
-    <entry file="file://$PROJECT_DIR$/travel/index.html" />
-    <entry file="file://$PROJECT_DIR$/travel/index.html" />
-    <entry file="file://$PROJECT_DIR$/travel/flight.html" />
-    <entry file="file://$PROJECT_DIR$/travel/car.html" />
-    <entry file="file://$PROJECT_DIR$/travel/abcd.py" />
-    <entry file="file://$PROJECT_DIR$/travel/index.html" />
-    <entry file="file://$PROJECT_DIR$/abcd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        <state relative-caret-position="171">
+          <caret line="48" column="30" lean-forward="true" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
         </state>
       </provider>
     </entry>
