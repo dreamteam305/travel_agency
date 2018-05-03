@@ -1,10 +1,165 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37f3ec4e-a815-4b43-b3bd-0f80c53f42b8" name="Default" comment="travel commit">
+    <list default="true" id="37f3ec4e-a815-4b43-b3bd-0f80c53f42b8" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/abcd.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travel/car.html" beforeDir="false" afterPath="$PROJECT_DIR$/travel/car.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travel/flight.html" beforeDir="false" afterPath="$PROJECT_DIR$/travel/flight.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/backend/backEndStuff.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/backend/bottle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/car.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/css/bootstrap-datepicker.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/css/cs-select.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/css/cs-skin-border.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/css/icomoon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/css/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/css/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/css/superfish.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/flight.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/fonts/bootstrap/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/fonts/bootstrap/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/fonts/bootstrap/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/fonts/bootstrap/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/fonts/bootstrap/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/fonts/icomoon/icomoon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/fonts/icomoon/icomoon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/fonts/icomoon/icomoon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/fonts/icomoon/icomoon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/fonts/icomoon/icomoon/Read Me.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/fonts/icomoon/icomoon/demo-files/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/fonts/icomoon/icomoon/demo-files/demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/fonts/icomoon/icomoon/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/fonts/icomoon/icomoon/fonts/icomoon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/fonts/icomoon/icomoon/fonts/icomoon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/fonts/icomoon/icomoon/fonts/icomoon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/fonts/icomoon/icomoon/fonts/icomoon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/fonts/icomoon/icomoon/selection.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/fonts/icomoon/icomoon/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/hotel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/images/car-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/images/car-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/images/car-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/images/car-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/images/car-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/images/car-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/images/cover_bg_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/images/cover_bg_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/images/cover_bg_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/images/cover_bg_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/images/cover_bg_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/images/loc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/images/place-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/images/place-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/images/place-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/images/place-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/images/place-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/images/place-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/images/place-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/images/place-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/images/place-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/images/place-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/js/bootstrap-datepicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/js/classie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/js/google_map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/js/hoverIntent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/js/jquery.easing.1.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/js/jquery.magnific-popup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/js/jquery.stellar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/js/jquery.waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/js/magnific-popup-options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/js/modernizr-2.6.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/js/respond.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/js/selectFx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/js/sticky.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/js/superfish.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/pyback/abc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/_bootstrap-compass.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/_bootstrap-mincer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/_bootstrap-sprockets.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/ab.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/_alerts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/_badges.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/_breadcrumbs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/_button-groups.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/_carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/_close.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/_code.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/_component-animations.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/_dropdowns.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/_glyphicons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/_input-groups.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/_jumbotron.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/_labels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/_media.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/_modals.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/_navs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/_normalize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/_pager.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/_panels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/_popovers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/_print.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/_progress-bars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/_responsive-embed.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/_responsive-utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/_scaffolding.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/_theme.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/_thumbnails.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/_tooltip.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/_type.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/_wells.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/mixins/_alerts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/mixins/_background-variant.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/mixins/_border-radius.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/mixins/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/mixins/_center-block.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/mixins/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/mixins/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/mixins/_gradients.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/mixins/_grid-framework.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/mixins/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/mixins/_hide-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/mixins/_image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/mixins/_labels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/mixins/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/mixins/_nav-divider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/mixins/_nav-vertical-align.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/mixins/_opacity.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/mixins/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/mixins/_panels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/mixins/_progress-bar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/mixins/_reset-filter.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/mixins/_reset-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/mixins/_resize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/mixins/_responsive-visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/mixins/_size.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/mixins/_tab-focus.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/mixins/_table-row.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/mixins/_text-emphasis.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/mixins/_text-overflow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/bootstrap/mixins/_vendor-prefixes.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/sass/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/vacation.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,42 +170,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/travel/index.html">
+      <file leaf-file-name="abcd.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/abcd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8085">
-              <caret line="80" column="93" selection-start-line="80" selection-start-column="90" selection-end-line="80" selection-end-column="93" />
+            <state relative-caret-position="187">
+              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="car.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/travel/car.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2901">
-              <caret line="113" column="36" selection-start-line="113" selection-start-column="36" selection-end-line="113" selection-end-column="36" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+      <file leaf-file-name="._index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/__MACOSX/travel/._index.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="flight.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/travel/flight.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2873">
-              <caret line="274" selection-start-line="274" selection-end-line="274" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hotel.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/travel/hotel.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -77,6 +223,8 @@
         <option value="$PROJECT_DIR$/travel/index.html" />
         <option value="$PROJECT_DIR$/travel/flight.html" />
         <option value="$PROJECT_DIR$/travel/car.html" />
+        <option value="$PROJECT_DIR$/travel/abcd.py" />
+        <option value="$PROJECT_DIR$/abcd.py" />
       </list>
     </option>
   </component>
@@ -100,6 +248,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,38 +259,12 @@
             <path>
               <item name="travel_agency" type="b2602c69:ProjectViewProjectNode" />
               <item name="travel_agency" type="462c0819:PsiDirectoryNode" />
-              <item name="travel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="travel_agency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="travel_agency" type="462c0819:PsiDirectoryNode" />
-              <item name="travel" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="travel_agency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="travel_agency" type="462c0819:PsiDirectoryNode" />
-              <item name="travel" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="travel_agency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="travel_agency" type="462c0819:PsiDirectoryNode" />
-              <item name="travel" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="style.css" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="travel_agency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="travel_agency" type="462c0819:PsiDirectoryNode" />
-              <item name="travel" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -160,15 +283,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.car.html">
+  <component name="RunManager" selected="Python.abcd">
     <configuration name="car.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/travel_agency/travel/car.html" />
     <configuration name="flight.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/travel_agency/travel/flight.html" />
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/travel_agency/travel/index.html" />
+    <configuration name="abcd" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="travel_agency" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/travel" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/travel/abcd.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="JavaScript Debug.car.html" />
       <item itemvalue="JavaScript Debug.flight.html" />
+      <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="Python.abcd" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.abcd" />
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.car.html" />
         <item itemvalue="JavaScript Debug.flight.html" />
       </list>
@@ -212,40 +359,34 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13841000" />
+    <option name="totallyTimeSpent" value="14469000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1478" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Messages" sideWeight="0.49934897" visible="true" weight="0.32965517" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50065106" side_tool="true" visible="true" weight="0.32965517" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49934897" weight="0.0" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="8" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,77 +404,44 @@
     <option name="LAST_COMMIT_MESSAGE" value="travel commit" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/travel/index.html">
+    <entry file="file://$PROJECT_DIR$/abcd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8007">
-          <caret line="471" column="20" selection-start-line="471" selection-start-column="20" selection-end-line="471" selection-end-column="20" />
+        <state relative-caret-position="204">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/travel/car.html">
+    <entry file="file://$PROJECT_DIR$/travel/index.html" />
+    <entry file="file://$PROJECT_DIR$/travel/car.html" />
+    <entry file="file://$PROJECT_DIR$/travel/backend/bottle.py" />
+    <entry file="file://$PROJECT_DIR$/travel/index.html" />
+    <entry file="file://$PROJECT_DIR$/travel/backend/bottle.py" />
+    <entry file="file://$PROJECT_DIR$/travel/backend/bottle.py" />
+    <entry file="file://$PROJECT_DIR$/travel/car.html" />
+    <entry file="file://$PROJECT_DIR$/travel/index.html" />
+    <entry file="file://$PROJECT_DIR$/travel/index.html" />
+    <entry file="file://$PROJECT_DIR$/travel/index.html" />
+    <entry file="file://$PROJECT_DIR$/travel/car.html" />
+    <entry file="file://$PROJECT_DIR$/travel/index.html" />
+    <entry file="file://$PROJECT_DIR$/travel/index.html" />
+    <entry file="file://$PROJECT_DIR$/travel/index.html" />
+    <entry file="file://$PROJECT_DIR$/travel/index.html" />
+    <entry file="file://$PROJECT_DIR$/travel/flight.html" />
+    <entry file="file://$PROJECT_DIR$/travel/car.html" />
+    <entry file="file://$PROJECT_DIR$/travel/abcd.py" />
+    <entry file="file://$PROJECT_DIR$/travel/index.html" />
+    <entry file="file://$PROJECT_DIR$/abcd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1445">
-          <caret line="85" column="28" selection-start-line="85" selection-start-column="32" selection-end-line="94" selection-end-column="37" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/travel/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8007">
-          <caret line="471" column="20" lean-forward="true" selection-start-line="471" selection-start-column="20" selection-end-line="471" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travel/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travel/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travel/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8007">
-          <caret line="471" column="20" selection-start-line="471" selection-start-column="20" selection-end-line="471" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travel/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8085">
-          <caret line="80" column="93" selection-start-line="80" selection-start-column="90" selection-end-line="80" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travel/hotel.html">
+    <entry file="file://$PROJECT_DIR$/__MACOSX/travel/._index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/travel/flight.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2873">
-          <caret line="274" selection-start-line="274" selection-end-line="274" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travel/car.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2901">
-          <caret line="113" column="36" selection-start-line="113" selection-start-column="36" selection-end-line="113" selection-end-column="36" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
