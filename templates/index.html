@@ -129,16 +129,24 @@
 									 <div role="tabpanel" class="tab-pane active" id="flights">
 										<div class="row">
 											<div class="col-xxs-12 col-xs-6 mt">
-												<div class="input-field">
-													<label for="from">From:</label>
-													<input type="text" class="form-control" id="from-place" placeholder="Los Angeles, USA"/>
-												</div>
+												<section>
+													<label for="class">From:</label>
+													<select class="cs-select cs-skin-border">
+														{% for i in flight_src %}
++															<option value="{{i[0]}}">{{i[0]}}</option>
++														{% endfor %}}
+													</select>
+												</section>
 											</div>
 											<div class="col-xxs-12 col-xs-6 mt">
-												<div class="input-field">
-													<label for="from">To:</label>
-													<input type="text" class="form-control" id="to-place" placeholder="Tokyo, Japan"/>
-												</div>
+												<section>
+													<label for="class">To:</label>
+													<select class="cs-select cs-skin-border">
+														{% for flight in flight_dest %}
++															<option value="{{flight[0]}}">{{flight[0]}}</option>
++														{% endfor %}}
+													</select>
+												</section>
 											</div>
 											<div class="col-xxs-12 col-xs-6 mt alternate">
 												<div class="input-field">
@@ -156,14 +164,9 @@
 												<section>
 													<label for="class">Class:</label>
 													<select class="cs-select cs-skin-border">
-
-														{% for Emp in Employees %}
-															<option value="{{Emp.Source_Airport_ID}}">{{EmpSource_Airport_ID}}</option>
-														{% endfor %}}
-														<!--<option value="" disabled selected>Economy</option>-->
-														<!--<option value="economy">Economy</option>-->
-														<!--<option value="first">First</option>-->
-														<!--<option value="business">Business</option>-->
+														{% for fc in flight_c %}
++															<option value="{{fc[0]}}">{{fc[0]}}</option>
++														{% endfor %}}
 													</select>
 												</section>
 											</div>
@@ -176,6 +179,8 @@
 														<option value="2">2</option>
 														<option value="3">3</option>
 														<option value="4">4</option>
+														<option value="5">5</option>
+														<option value="6">6</option>
 													</select>
 												</section>
 											</div>
