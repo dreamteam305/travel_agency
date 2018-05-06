@@ -22,11 +22,17 @@ conn = mysql.connect()
 def a():
    return "<form action=>"
 
+@app.route('/index.html')
+def index():
+   cursor = mysql.connect().cursor()
+   cursor.execute("SELECT userName FROM User")
+   return render_template('index.html', Users = cursor.fetchall())
+
 @app.route('/')
 def main():
-   cursor = mysql.connect().cursor()
-   cur = cursor.execute("SELECT userName FROM User")
-   return render_template('index.html', Users = cursor.fetchall())
+    cursor = mysql.connect().cursor()
+    cursor.execute("SELECT userName FROM User")
+    return render_template('index.html', Users=cursor.fetchall())
 
 
 @app.route("/<filename>.html")
