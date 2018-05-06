@@ -156,10 +156,14 @@
 												<section>
 													<label for="class">Class:</label>
 													<select class="cs-select cs-skin-border">
-														<option value="" disabled selected>Economy</option>
-														<option value="economy">Economy</option>
-														<option value="first">First</option>
-														<option value="business">Business</option>
+
+														{% for user in Users %}
+															<option value="{{user.userName}}">{{user}}</option>
+														{% endfor %}}
+														<!--<option value="" disabled selected>Economy</option>-->
+														<!--<option value="economy">Economy</option>-->
+														<!--<option value="first">First</option>-->
+														<!--<option value="business">Business</option>-->
 													</select>
 												</section>
 											</div>
