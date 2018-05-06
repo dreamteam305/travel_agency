@@ -116,16 +116,24 @@
 									 <div role="tabpanel" class="tab-pane active" id="flights">
 										<div class="row">
 											<div class="col-xxs-12 col-xs-6 mt">
-												<div class="input-field">
-													<label for="from">From:</label>
-													<input type="text" class="form-control" id="from-place" placeholder="Los Angeles, USA"/>
-												</div>
+												<section>
+													<label for="class">From:</label>
+													<select class="cs-select cs-skin-border">
+														{% for i in flight_src %}
++															<option value="{{i[0]}}">{{i[0]}}</option>
++														{% endfor %}}
+													</select>
+												</section>
 											</div>
 											<div class="col-xxs-12 col-xs-6 mt">
-												<div class="input-field">
-													<label for="from">To:</label>
-													<input type="text" class="form-control" id="to-place" placeholder="Tokyo, Japan"/>
-												</div>
+												<section>
+													<label for="class">To:</label>
+													<select class="cs-select cs-skin-border">
+														{% for flight in flight_dest %}
++															<option value="{{flight[0]}}">{{flight[0]}}</option>
++														{% endfor %}}
+													</select>
+												</section>
 											</div>
 											<div class="col-xxs-12 col-xs-6 mt alternate">
 												<div class="input-field">
@@ -141,39 +149,40 @@
 											</div>
 											<div class="col-sm-12 mt">
 												<section>
+													<label for="class">Carrier:</label>
+													<select class="cs-select cs-skin-border">
+														{% for f_c in flight_carr %}
++															<option value="{{f_c[0]}}">{{f_c[0]}}</option>
++														{% endfor %}}
+													</select>
+												</section>
+											</div>
+											<div class="col-sm-12 mt">
+												<section>
 													<label for="class">Class:</label>
 													<select class="cs-select cs-skin-border">
-														<option value="" disabled selected>Economy</option>
-														<option value="economy">Economy</option>
-														<option value="first">First</option>
-														<option value="business">Business</option>
+														{% for fc in flight_c %}
++															<option value="{{fc[0]}}">{{fc[0]}}</option>
++														{% endfor %}}
 													</select>
 												</section>
 											</div>
-											<div class="col-xxs-12 col-xs-6 mt">
+											<div class="col-sm-12 mt">
 												<section>
-													<label for="class">Adult:</label>
+													<label for="class">Passengers:</label>
 													<select class="cs-select cs-skin-border">
 														<option value="" disabled selected>1</option>
 														<option value="1">1</option>
 														<option value="2">2</option>
 														<option value="3">3</option>
 														<option value="4">4</option>
+														<option value="5">5</option>
+														<option value="6">6</option>
+
 													</select>
 												</section>
 											</div>
-											<div class="col-xxs-12 col-xs-6 mt">
-												<section>
-													<label for="class">Children:</label>
-													<select class="cs-select cs-skin-border">
-														<option value="" disabled selected>1</option>
-														<option value="1">1</option>
-														<option value="2">2</option>
-														<option value="3">3</option>
-														<option value="4">4</option>
-													</select>
-												</section>
-											</div>
+
 											<div class="col-xs-12">
 												<input type="submit" class="btn btn-primary btn-block" value="Book Flight">
 											</div>
@@ -210,12 +219,11 @@
 											</div>
 											<div class="col-sm-12 mt">
 												<section>
-													<label for="class">Rooms:</label>
+													<label for="class">Class:</label>
 													<select class="cs-select cs-skin-border">
-														<option value="" disabled selected>1</option>
-														<option value="economy">1</option>
-														<option value="first">2</option>
-														<option value="business">3</option>
+														{% for flight in flight_dest %}
++															<option value="{{flight[0]}}">{{flight[0]}}</option>
++														{% endfor %}}
 													</select>
 												</section>
 											</div>

@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37f3ec4e-a815-4b43-b3bd-0f80c53f42b8" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/travel_agency.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/travel_agency.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/abcd.py" beforeDir="false" afterPath="$PROJECT_DIR$/abcd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/flight.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/flight.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,24 +17,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/travel_agency$abcd__1_.coverage" NAME="abcd (1) Coverage Results" MODIFIED="1525332782178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/travel_agency$abcd__1_.coverage" NAME="abcd (1) Coverage Results" MODIFIED="1525643607393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="139" column="36" selection-start-line="139" selection-start-column="36" selection-end-line="139" selection-end-column="36" />
+            <state relative-caret-position="221">
+              <caret line="160" column="124" selection-start-line="160" selection-start-column="124" selection-end-line="160" selection-end-column="124" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#19095#19102#0" expanded="true" />
-                <element signature="e#19224#19231#0" expanded="true" />
-                <element signature="e#19564#19571#0" expanded="true" />
-                <element signature="e#19687#19694#0" expanded="true" />
-                <element signature="e#20092#20099#0" expanded="true" />
-                <element signature="e#20314#20321#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -39,8 +37,8 @@
       <file leaf-file-name="tut.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tut.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="680">
+              <caret line="41" column="34" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -48,20 +46,20 @@
       <file leaf-file-name="abcd.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/abcd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="304">
+              <caret line="46" column="41" lean-forward="true" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="52" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/template.html">
+      <file leaf-file-name="flight.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/flight.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            <state relative-caret-position="307">
+              <caret line="179" column="72" selection-start-line="179" selection-start-column="72" selection-end-line="179" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -94,9 +92,15 @@
       <find>stylesheet</find>
       <find>js</find>
       <find>rooms</find>
-      <find>eco</find>
-      <find>Search</find>
       <find>conn</find>
+      <find>eco</find>
+      <find />
+      <find>adu</find>
+      <find>from</find>
+      <find>FROM</find>
+      <find>r</find>
+      <find>class</find>
+      <find>to</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -110,7 +114,6 @@
         <option value="$PROJECT_DIR$/travel/car.html" />
         <option value="$PROJECT_DIR$/travel/abcd.py" />
         <option value="$PROJECT_DIR$/templates/vacation.html" />
-        <option value="$PROJECT_DIR$/templates/flight.html" />
         <option value="$PROJECT_DIR$/templates/contact.html" />
         <option value="$PROJECT_DIR$/templates/blog.html" />
         <option value="$PROJECT_DIR$/templates/hotel.html" />
@@ -119,8 +122,9 @@
         <option value="$PROJECT_DIR$/templates/sass/template.html" />
         <option value="$PROJECT_DIR$/templates/template.html" />
         <option value="$PROJECT_DIR$/tut.py" />
-        <option value="$PROJECT_DIR$/abcd.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/abcd.py" />
+        <option value="$PROJECT_DIR$/templates/flight.html" />
       </list>
     </option>
   </component>
@@ -134,17 +138,15 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2" />
-    <option name="y" value="8" />
-    <option name="width" value="1034" />
-    <option name="height" value="1103" />
+    <option name="x" value="-8" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,16 +159,11 @@
               <item name="travel_agency" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="travel_agency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="travel_agency" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -176,6 +173,7 @@
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -190,21 +188,18 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.abcd (1)">
-    <configuration name="flight.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/travel_agency/travel/flight.html" />
     <configuration name="hotel.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/travel_agency/templates/hotel.html" />
+    <configuration name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/travel_agency/templates/index.html" />
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/travel_agency/travel/index.html" />
     <configuration name="abcd (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="travel_agency" />
       <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\syed_jamal\Documents\Stony Brook\SPRING 2018\CSE 305\Final_pro\travel_agency\venv\Scripts\python.exe" />
+      <option name="PARENT_ENVS" value="false" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/abcd.py" />
       <option name="PARAMETERS" value="" />
@@ -295,15 +290,16 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.flight.html" />
       <item itemvalue="JavaScript Debug.hotel.html" />
       <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="Python.abcd (1)" />
       <item itemvalue="Python.abcd" />
+      <item itemvalue="JavaScript Debug.index.html (1)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.abcd (1)" />
+        <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="Python.abcd" />
       </list>
     </recent_temporary>
@@ -356,14 +352,7 @@
       <option name="project" value="LOCAL" />
       <updated>1525322942471</updated>
     </task>
-    <task id="LOCAL-00006" summary="connect database to HTML drop box">
-      <created>1525594082837</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1525594082837</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -380,20 +369,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32965517" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32905984" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16536458" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.34896553" />
-      <window_info anchor="right" id="SciView" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32905984" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33903134" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32905984" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08859061" />
+      <window_info anchor="right" id="R Packages" order="3" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -401,31 +391,33 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="Data View" order="3" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.34896553" />
+      <window_info anchor="right" id="Data View" order="3" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32965517" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16536458" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08919271" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="2" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="4" weight="0.32905984" />
       <window_info anchor="right" id="Data View" order="5" />
       <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="bottom" id="Find" order="3" weight="0.34896553" />
+      <window_info anchor="bottom" id="Find" order="3" visible="true" weight="0.34896553" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="SciView" order="1" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Messages" order="13" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -445,10 +437,19 @@
     <MESSAGE value="travel commit" />
     <MESSAGE value="commit add of abcd" />
     <MESSAGE value="commit add of abcd entire" />
-    <MESSAGE value="connect database to HTML drop box" />
-    <option name="LAST_COMMIT_MESSAGE" value="connect database to HTML drop box" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit add of abcd entire" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/abcd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/travel/backend/bottle.py" />
     <entry file="file://$PROJECT_DIR$/travel/index.html" />
     <entry file="file://$PROJECT_DIR$/travel/backend/bottle.py" />
@@ -506,16 +507,7 @@
     <entry file="file://$PROJECT_DIR$/travel/car.html" />
     <entry file="file://$PROJECT_DIR$/travel/abcd.py" />
     <entry file="file://$PROJECT_DIR$/travel/index.html" />
-    <entry file="file://$PROJECT_DIR$/templates/table_overview.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/sass/template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sass/template.html" />
     <entry file="file://$PROJECT_DIR$/templates/car.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -551,30 +543,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/flight.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="318" column="17" selection-start-line="318" selection-start-column="17" selection-end-line="318" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tut.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/abcd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/template.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -582,20 +550,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tut.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="41" column="34" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="139" column="36" selection-start-line="139" selection-start-column="36" selection-end-line="139" selection-end-column="36" />
+        <state relative-caret-position="221">
+          <caret line="160" column="124" selection-start-line="160" selection-start-column="124" selection-end-line="160" selection-end-column="124" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#19095#19102#0" expanded="true" />
-            <element signature="e#19224#19231#0" expanded="true" />
-            <element signature="e#19564#19571#0" expanded="true" />
-            <element signature="e#19687#19694#0" expanded="true" />
-            <element signature="e#20092#20099#0" expanded="true" />
-            <element signature="e#20314#20321#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abcd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="46" column="41" lean-forward="true" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/flight.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="179" column="72" selection-start-line="179" selection-start-column="72" selection-end-line="179" selection-end-column="72" />
         </state>
       </provider>
     </entry>
