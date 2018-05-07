@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="37f3ec4e-a815-4b43-b3bd-0f80c53f42b8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/abcd.py" beforeDir="false" afterPath="$PROJECT_DIR$/abcd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/car.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/car.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/hotel.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/hotel.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,15 +16,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/travel_agency$abcd__1_.coverage" NAME="abcd (1) Coverage Results" MODIFIED="1525644567847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/travel_agency$abcd__1_.coverage" NAME="abcd (1) Coverage Results" MODIFIED="1525652071879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="122" column="37" selection-start-line="122" selection-start-column="33" selection-end-line="123" selection-end-column="3" />
+            <state relative-caret-position="68">
+              <caret line="136" column="48" selection-start-line="136" selection-start-column="48" selection-end-line="143" selection-end-column="58" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -42,8 +45,8 @@
       <file leaf-file-name="abcd.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/abcd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            <state relative-caret-position="255">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -51,11 +54,29 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="car.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/car.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="155" column="67" lean-forward="true" selection-start-line="155" selection-start-column="67" selection-end-line="155" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="flight.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/flight.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="167" column="58" lean-forward="true" selection-start-line="160" selection-start-column="48" selection-end-line="167" selection-end-column="58" />
+            <state relative-caret-position="154">
+              <caret line="220" column="48" selection-start-line="220" selection-start-column="48" selection-end-line="227" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hotel.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/hotel.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="140" column="58" lean-forward="true" selection-start-line="133" selection-start-column="44" selection-end-line="140" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -98,6 +119,10 @@
       <find>to</find>
       <find>%</find>
       <find>hotel</find>
+      <find>Hilton</find>
+      <find>las</find>
+      <find>locati</find>
+      <find>Flight</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -113,15 +138,15 @@
         <option value="$PROJECT_DIR$/templates/vacation.html" />
         <option value="$PROJECT_DIR$/templates/contact.html" />
         <option value="$PROJECT_DIR$/templates/blog.html" />
-        <option value="$PROJECT_DIR$/templates/hotel.html" />
-        <option value="$PROJECT_DIR$/templates/car.html" />
         <option value="$PROJECT_DIR$/templates/table_overview.html" />
         <option value="$PROJECT_DIR$/templates/sass/template.html" />
         <option value="$PROJECT_DIR$/templates/template.html" />
         <option value="$PROJECT_DIR$/tut.py" />
-        <option value="$PROJECT_DIR$/templates/flight.html" />
-        <option value="$PROJECT_DIR$/abcd.py" />
+        <option value="$PROJECT_DIR$/templates/hotel.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/abcd.py" />
+        <option value="$PROJECT_DIR$/templates/flight.html" />
+        <option value="$PROJECT_DIR$/templates/car.html" />
       </list>
     </option>
   </component>
@@ -135,15 +160,16 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
+    <option name="x" value="-10" />
+    <option name="width" value="979" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,7 +186,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -366,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1525646944575</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="delete hotels from homepage">
+      <created>1525647500665</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1525647500665</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -388,23 +420,23 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32965517" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32689655" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32905984" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33793104" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33793104" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32905984" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.088541664" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14453125" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="R Packages" order="3" />
-      <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -415,26 +447,26 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Data View" order="5" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08919271" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="2" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="4" weight="0.32905984" />
-      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" visible="true" weight="0.34896553" />
+      <window_info anchor="right" id="Data View" order="5" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08919271" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="SciView" order="1" />
-      <window_info anchor="bottom" id="Find" order="3" visible="true" weight="0.34896553" />
+      <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Messages" order="13" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,7 +485,8 @@
     <MESSAGE value="commit add of abcd entire" />
     <MESSAGE value="Index and flight updated they can be accessed and from each other." />
     <MESSAGE value="added one comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="added one comment" />
+    <MESSAGE value="delete hotels from homepage" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete hotels from homepage" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/abcd.py">
@@ -524,13 +557,6 @@
     <entry file="file://$PROJECT_DIR$/travel/abcd.py" />
     <entry file="file://$PROJECT_DIR$/travel/index.html" />
     <entry file="file://$PROJECT_DIR$/templates/sass/template.html" />
-    <entry file="file://$PROJECT_DIR$/templates/car.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="452">
@@ -552,13 +578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/hotel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="250" column="17" selection-start-line="250" selection-start-column="17" selection-end-line="250" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/template.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -566,20 +585,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/abcd.py">
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        <state relative-caret-position="68">
+          <caret line="136" column="48" selection-start-line="136" selection-start-column="48" selection-end-line="143" selection-end-column="58" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/flight.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="167" column="58" lean-forward="true" selection-start-line="160" selection-start-column="48" selection-end-line="167" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -590,14 +603,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/templates/hotel.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="122" column="37" selection-start-line="122" selection-start-column="33" selection-end-line="123" selection-end-column="3" />
+        <state relative-caret-position="188">
+          <caret line="140" column="58" lean-forward="true" selection-start-line="133" selection-start-column="44" selection-end-line="140" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/flight.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="220" column="48" selection-start-line="220" selection-start-column="48" selection-end-line="227" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abcd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/car.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="155" column="67" lean-forward="true" selection-start-line="155" selection-start-column="67" selection-end-line="155" selection-end-column="67" />
         </state>
       </provider>
     </entry>

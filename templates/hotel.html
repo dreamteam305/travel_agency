@@ -118,12 +118,6 @@
 
 									 <div role="tabpanel" class="tab-pane active" id="hotels">
 									 	<div class="row">
-											<div class="col-xxs-12 col-xs-12 mt">
-												<div class="input-field">
-													<label for="from">City:</label>
-													<input type="text" class="form-control" id="from-place" placeholder="Los Angeles, USA"/>
-												</div>
-											</div>
 
 											<div class="col-sm-12 mt">
 											<section>
@@ -138,13 +132,13 @@
 
 											<div class="col-sm-12 mt">
 											<section>
-													<label for="class">Name:</label>
+													<label for="class">From:</label>
 													<select class="cs-select cs-skin-border">
-														<option value="" disabled selected>Hilton</option>
-														<option value="hotel">Hilton</option>
-														<option value="air_bnb">Air Bnb</option>
+														{% for name in AccoName %}
++															<option value="{{name[0]}}">{{name[0]}}</option>
++														{% endfor %}}
 													</select>
-											</section>
+												</section>
 											</div>
 
 											<div class="col-xxs-12 col-xs-6 mt alternate">

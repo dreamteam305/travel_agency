@@ -121,33 +121,36 @@
 									 <div role="tabpanel" class="tab-pane active" id="cars">
 										<div class="row">
 
-                                            <div class="col-xxs-12 col-xs-6 mt">
-                                            <div class="input-field">
-                                            <label for="from">Location:</label>
-                                            <input type="text" class="form-control" id="from-place" placeholder="Los Angeles, USA"/>
-                                            </div>
-                                            </div>
+                                            <div class="col-sm-12 mt">
+												<section>
+													<label for="class">Location:</label>
+													<select class="cs-select cs-skin-border">
+														{% for city in CarCity %}
++															<option value="{{city[0]}}">{{city[0]}}</option>
++														{% endfor %}}
+													</select>
+												</section>
+											</div>
 											<div class="col-sm-12 mt">
 												<section>
-													<label for="company">Company:</label>
+													<label for="class">Company:</label>
 													<select class="cs-select cs-skin-border">
-														<option value="" disabled selected>Zip car</option>
-														<option value="zip_car">Zip car</option>
-														<option value="enterprise">Enterprise</option>
-                                                        <option value="car_one">Car One</option>
+														{% for company in CarComp %}
++															<option value="{{company[0]}}">{{company[0]}}</option>
++														{% endfor %}}
 													</select>
 												</section>
 											</div>
 
                                             <div class="col-sm-12 mt">
                                                 <section>
-                                                    <label for="class">Class:</label>
-                                                    <select class="cs-select cs-skin-border">
-                                                        <option value="" disabled selected>Economy</option>
-                                                        <option value="economy">Economy</option>
-                                                        <option value="luxary">Luxary</option>
-                                                    </select>
-                                                </section>
+													<label for="class">Type:</label>
+													<select class="cs-select cs-skin-border">
+														{% for type in CarType %}
++															<option value="{{type[0]}}">{{type[0]}}</option>
++														{% endfor %}}
+													</select>
+												</section>
                                             </div>
 
 											<div class="col-xs-12">
@@ -234,7 +237,7 @@
 									<h2>Exclusive Offer !!!</h2>
 									<h3>Rent any Luxary car </h3>
 									<span class="price">$199/ day</span>
-                                    <h3>Rent any General car </h3>
+                                    <h3>Rent any Regular car </h3>
                                     <span class="price">$99/ day</span>
 									<!-- <p><a class="btn btn-primary btn-lg" href="#">Get Started</a></p> -->
 								</div>

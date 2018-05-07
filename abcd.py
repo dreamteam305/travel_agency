@@ -17,6 +17,42 @@ mysql.init_app(app)
 
 conn = mysql.connect()
 
+@app.route('/hotel.html')
+def hotel():
+   accomodation_names = mysql.connect().cursor()
+   accomodation_names.execute("SELECT distinct Accomodation_Name FROM `travel_agency`.`Accomodation`;")
+   # flight_carr= flight_carrier.fetchall()
+
+   accomodation_type = mysql.connect().cursor()
+   accomodation_type.execute("SELECT distinct Accomodation_Type FROM `travel_agency`.`Accomodation`;")
+
+   rate_per_night = mysql.connect().cursor()
+   rate_per_night.execute("SELECT distinct Rate_Per_Night FROM `travel_agency`.`Accomodation`;")
+
+
+
+   # "Flight_Carrier, Flight_Fare, Flight_Class, Source_Airport_ID, Destination_Airport_ID "
+
+   return render_template("hotel.html", AccoName=accomodation_names.fetchall(), AccoType=accomodation_type.fetchall(),
+                          AccoRate = rate_per_night.fetchall())
+
+@app.route('/car.html')
+def car():
+   car_company = mysql.connect().cursor()
+   car_company.execute("SELECT distinct Company FROM `travel_agency`.`Car`;")
+   # flight_carr= flight_carrier.fetchall()
+
+   car_city = mysql.connect().cursor()
+   car_city.execute("SELECT distinct Park_Addr FROM `travel_agency`.`Car`;")
+
+   car_type = mysql.connect().cursor()
+   car_type.execute("SELECT distinct Car_Type FROM `travel_agency`.`Car`;")
+
+
+
+
+   return render_template("car.html", CarComp = car_company.fetchall(), CarCity = car_city.fetchall(),
+                          CarType = car_type.fetchall())
 
 @app.route('/a')
 def a():
