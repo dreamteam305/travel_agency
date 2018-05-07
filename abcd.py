@@ -10,7 +10,7 @@ mysql = MySQL()
 
 # MySQL configurations
 app.config['MYSQL_DATABASE_USER'] = 'root'
-app.config['MYSQL_DATABASE_PASSWORD'] = 'bogdan322464'
+app.config['MYSQL_DATABASE_PASSWORD'] = 'samSam11'
 app.config['MYSQL_DATABASE_DB'] = 'travel_agency'
 app.config['MYSQL_DATABASE_HOST'] = 'localhost'
 mysql.init_app(app)
@@ -167,6 +167,7 @@ def cruise():
 
 @app.route("/<filename>.html")
 def htmlRoute(filename):
+
    return render_template(filename+".html")
 
 

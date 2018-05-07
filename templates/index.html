@@ -134,13 +134,14 @@
 								 <!--  </ul>
 -->
 								   <!-- Tab panes -->
+									<form method ="post" action="/begin">
 									<div class="tab-content">
 									 <div role="tabpanel" class="tab-pane active" id="flights">
 										<div class="row">
 											<div class="col-xxs-12 col-xs-6 mt">
 												<section>
 													<label for="class">From:</label>
-													<select class="cs-select cs-skin-border">
+													<select class="cs-select cs-skin-border" name="source">
 														{% for i in flight_src %}
 +															<option value="{{i[0]}}">{{i[0]}}</option>
 +														{% endfor %}}
@@ -150,7 +151,7 @@
 											<div class="col-xxs-12 col-xs-6 mt">
 												<section>
 													<label for="class">To:</label>
-													<select class="cs-select cs-skin-border">
+													<select class="cs-select cs-skin-border" name="destination">
 														{% for flight in flight_dest %}
 +															<option value="{{flight[0]}}">{{flight[0]}}</option>
 +														{% endfor %}}
@@ -160,19 +161,19 @@
 											<div class="col-xxs-12 col-xs-6 mt alternate">
 												<div class="input-field">
 													<label for="date-start">Check In:</label>
-													<input type="text" class="form-control" id="date-start" placeholder="mm/dd/yyyy"/>
+													<input type="text" class="form-control" id="date-start" placeholder="mm/dd/yyyy" name="departure"/>
 												</div>
 											</div>
 											<div class="col-xxs-12 col-xs-6 mt alternate">
 												<div class="input-field">
 													<label for="date-end">Check Out:</label>
-													<input type="text" class="form-control" id="date-end" placeholder="mm/dd/yyyy"/>
+													<input type="text" class="form-control" id="date-end" placeholder="mm/dd/yyyy" name="arrival"/>
 												</div>
 											</div>
 											<div class="col-sm-12 mt">
 												<section>
 													<label for="class">Class:</label>
-													<select class="cs-select cs-skin-border">
+													<select class="cs-select cs-skin-border" name="lux">
 														{% for fc in flight_c %}
 +															<option value="{{fc[0]}}">{{fc[0]}}</option>
 +														{% endfor %}}
@@ -182,7 +183,7 @@
 											<div class="col-xxs-12 col-xs-6 mt">
 												<section>
 													<label for="class">Adult:</label>
-													<select class="cs-select cs-skin-border">
+													<select class="cs-select cs-skin-border" name="passenger">
 														<option value="" disabled selected>1</option>
 														<option value="1">1</option>
 														<option value="2">2</option>
@@ -200,6 +201,7 @@
 										</div>
 									 </div>
 									</div>
+									</form>
 
 								</div>
 							</div>
