@@ -113,6 +113,8 @@
 
 								   </ul>
 
+
+									<form methond = "post" action="/stepTwo">
 								   <!-- Tab panes -->
 									<div class="tab-content">
 									 <div role="tabpanel" class="tab-pane active" id="flights">
@@ -120,7 +122,7 @@
 											<div class="col-xxs-12 col-xs-6 mt">
 												<section>
 													<label for="class">From:</label>
-													<select class="cs-select cs-skin-border">
+													<select class="cs-select cs-skin-border" name="srcAirport" disabled>
 														{% for i in flight_src %}
 +															<option value="{{i[0]}}">{{i[0]}}</option>
 +														{% endfor %}}
@@ -130,7 +132,7 @@
 											<div class="col-xxs-12 col-xs-6 mt">
 												<section>
 													<label for="class">To:</label>
-													<select class="cs-select cs-skin-border">
+													<select class="cs-select cs-skin-border" name="dstAirport" disabled>
 														{% for flight in flight_dest %}
 +															<option value="{{flight[0]}}">{{flight[0]}}</option>
 +														{% endfor %}}
@@ -140,13 +142,13 @@
 											<div class="col-xxs-12 col-xs-6 mt alternate">
 												<div class="input-field">
 													<label for="date-start">Check In:</label>
-													<input type="text" class="form-control" id="date-start" placeholder="mm/dd/yyyy"/>
+													<input type="text" class="form-control" id="date-start" placeholder="mm/dd/yyyy" disabled/>
 												</div>
 											</div>
 											<div class="col-xxs-12 col-xs-6 mt alternate">
 												<div class="input-field">
 													<label for="date-end">Check Out:</label>
-													<input type="text" class="form-control" id="date-end" placeholder="mm/dd/yyyy"/>
+													<input type="text" class="form-control" id="date-end" placeholder="mm/dd/yyyy" disabled/>
 												</div>
 											</div>
 											<div class="col-sm-12 mt">
@@ -261,7 +263,7 @@
 										</div>
 									 </div>
 									</div>
-
+									</form>
 								</div>
 							</div>
 							<div class="desc2 animate-box">
