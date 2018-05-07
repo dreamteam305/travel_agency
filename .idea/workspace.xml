@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37f3ec4e-a815-4b43-b3bd-0f80c53f42b8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/card.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/bus.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bus.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/car.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/car.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/card.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/card.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/cruise.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/cruise.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/flight.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/flight.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/hotel.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/hotel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,8 +25,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1357">
-              <caret line="96" column="65" selection-start-line="96" selection-start-column="65" selection-end-line="96" selection-end-column="65" />
+            <state relative-caret-position="439">
+              <caret line="96" column="68" lean-forward="true" selection-start-line="96" selection-start-column="68" selection-end-line="96" selection-end-column="68" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -48,7 +47,7 @@
       <file leaf-file-name="abcd.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/abcd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2261">
+            <state relative-caret-position="2363">
               <caret line="145" column="13" lean-forward="true" selection-start-line="145" selection-start-column="13" selection-end-line="145" selection-end-column="13" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
@@ -60,17 +59,17 @@
       <file leaf-file-name="flight.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/flight.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="172" column="44" lean-forward="true" selection-start-line="172" selection-start-column="44" selection-end-line="184" selection-end-column="58" />
+            <state relative-caret-position="216">
+              <caret line="288" lean-forward="true" selection-start-line="288" selection-end-line="288" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hotel.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="hotel.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/hotel.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="188" column="14" lean-forward="true" selection-start-line="188" selection-start-column="14" selection-end-line="188" selection-end-column="14" />
+            <state relative-caret-position="442">
+              <caret line="89" column="60" selection-start-line="89" selection-start-column="60" selection-end-line="89" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -78,8 +77,8 @@
       <file leaf-file-name="bus.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/bus.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="87" column="29" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
+            <state relative-caret-position="267">
+              <caret line="259" column="60" selection-start-line="259" selection-start-column="60" selection-end-line="259" selection-end-column="60" />
               <folding>
                 <element signature="e#393#400#0" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -91,17 +90,17 @@
       <file leaf-file-name="cruise.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/cruise.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="88" column="28" selection-start-line="88" selection-start-column="28" selection-end-line="88" selection-end-column="65" />
+            <state relative-caret-position="207">
+              <caret line="270" column="58" selection-start-line="270" selection-start-column="58" selection-end-line="270" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="card.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="card.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/card.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="156" column="50" selection-start-line="156" selection-start-column="50" selection-end-line="156" selection-end-column="50" />
+            <state relative-caret-position="483">
+              <caret line="240" column="76" selection-start-line="240" selection-start-column="76" selection-end-line="240" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -109,8 +108,8 @@
       <file leaf-file-name="car.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/car.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="93" column="65" selection-start-line="93" selection-start-column="65" selection-end-line="93" selection-end-column="65" />
+            <state relative-caret-position="258">
+              <caret line="242" column="59" selection-start-line="242" selection-start-column="59" selection-end-line="242" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -127,12 +126,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>stylesheet</find>
-      <find>js</find>
-      <find>rooms</find>
-      <find>conn</find>
-      <find>eco</find>
-      <find />
       <find>adu</find>
       <find>from</find>
       <find>FROM</find>
@@ -141,7 +134,6 @@
       <find>to</find>
       <find>hotel</find>
       <find>Hilton</find>
-      <find>las</find>
       <find>locati</find>
       <find>flight_carr</find>
       <find>Carr</find>
@@ -152,11 +144,18 @@
       <find>flight</find>
       <find>Flight</find>
       <find>dream</find>
-      <find>cru</find>
-      <find>gener</find>
-      <find>cursor.fetchall()</find>
-      <find>Bok</find>
       <find>Rent</find>
+      <find>gener</find>
+      <find>Card</find>
+      <find>cru</find>
+      <find>Bok</find>
+      <find>cursor.fetchall()</find>
+      <find>las</find>
+      <find>99</find>
+      <find>500</find>
+      <find>las</find>
+      <find>card nu</find>
+      <find>Exc</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -177,13 +176,13 @@
         <option value="$PROJECT_DIR$/templates/template.html" />
         <option value="$PROJECT_DIR$/tut.py" />
         <option value="$PROJECT_DIR$/abcd.py" />
-        <option value="$PROJECT_DIR$/templates/cruise.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/templates/car.html" />
         <option value="$PROJECT_DIR$/templates/flight.html" />
-        <option value="$PROJECT_DIR$/templates/bus.html" />
-        <option value="$PROJECT_DIR$/templates/card.html" />
         <option value="$PROJECT_DIR$/templates/hotel.html" />
+        <option value="$PROJECT_DIR$/templates/car.html" />
+        <option value="$PROJECT_DIR$/templates/bus.html" />
+        <option value="$PROJECT_DIR$/templates/cruise.html" />
+        <option value="$PROJECT_DIR$/templates/card.html" />
       </list>
     </option>
   </component>
@@ -474,7 +473,21 @@
       <option name="project" value="LOCAL" />
       <updated>1525670118340</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add card html file">
+      <created>1525673004579</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1525673004579</updated>
+    </task>
+    <task id="LOCAL-00014" summary="card changed to payment">
+      <created>1525673217765</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1525673217765</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -491,7 +504,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -568,7 +580,9 @@
     <MESSAGE value="Bus and Cruise Templates added" />
     <MESSAGE value="Bus and Cruise connection to database is added" />
     <MESSAGE value="remove type from hotel" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove type from hotel" />
+    <MESSAGE value="add card html file" />
+    <MESSAGE value="card changed to payment" />
+    <option name="LAST_COMMIT_MESSAGE" value="card changed to payment" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/travel/index.html" />
@@ -651,16 +665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/abcd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2261">
-          <caret line="145" column="13" lean-forward="true" selection-start-line="145" selection-start-column="13" selection-end-line="145" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/js/bootstrap-datepicker.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -685,28 +689,14 @@
     <entry file="file://$PROJECT_DIR$/static/js/respond.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bus.html">
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="87" column="29" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
+        <state relative-caret-position="439">
+          <caret line="96" column="68" lean-forward="true" selection-start-line="96" selection-start-column="68" selection-end-line="96" selection-end-column="68" />
           <folding>
-            <element signature="e#393#400#0" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/cruise.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="88" column="28" selection-start-line="88" selection-start-column="28" selection-end-line="88" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/car.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="93" column="65" selection-start-line="93" selection-start-column="65" selection-end-line="93" selection-end-column="65" />
         </state>
       </provider>
     </entry>
@@ -717,35 +707,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/abcd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1357">
-          <caret line="96" column="65" selection-start-line="96" selection-start-column="65" selection-end-line="96" selection-end-column="65" />
+        <state relative-caret-position="2363">
+          <caret line="145" column="13" lean-forward="true" selection-start-line="145" selection-start-column="13" selection-end-line="145" selection-end-column="13" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/flight.html">
+    <entry file="file://$PROJECT_DIR$/templates/car.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="172" column="44" lean-forward="true" selection-start-line="172" selection-start-column="44" selection-end-line="184" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/card.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="156" column="50" selection-start-line="156" selection-start-column="50" selection-end-line="156" selection-end-column="50" />
+        <state relative-caret-position="258">
+          <caret line="242" column="59" selection-start-line="242" selection-start-column="59" selection-end-line="242" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/hotel.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="188" column="14" lean-forward="true" selection-start-line="188" selection-start-column="14" selection-end-line="188" selection-end-column="14" />
+        <state relative-caret-position="442">
+          <caret line="89" column="60" selection-start-line="89" selection-start-column="60" selection-end-line="89" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/flight.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="288" lean-forward="true" selection-start-line="288" selection-end-line="288" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="259" column="60" selection-start-line="259" selection-start-column="60" selection-end-line="259" selection-end-column="60" />
+          <folding>
+            <element signature="e#393#400#0" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/cruise.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="270" column="58" selection-start-line="270" selection-start-column="58" selection-end-line="270" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/card.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="240" column="76" selection-start-line="240" selection-start-column="76" selection-end-line="240" selection-end-column="76" />
         </state>
       </provider>
     </entry>
