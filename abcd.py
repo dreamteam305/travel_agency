@@ -6,11 +6,12 @@ app = Flask(__name__)
 
 mysql = MySQL()
 
+dict = {}
 
 
 # MySQL configurations
 app.config['MYSQL_DATABASE_USER'] = 'root'
-app.config['MYSQL_DATABASE_PASSWORD'] = 'samSam11'
+app.config['MYSQL_DATABASE_PASSWORD'] = 'bogdan322464'
 app.config['MYSQL_DATABASE_DB'] = 'travel_agency'
 app.config['MYSQL_DATABASE_HOST'] = 'localhost'
 mysql.init_app(app)
@@ -216,6 +217,18 @@ def hoteldata():
    data = cur.fetchall()
    return render_template('hoteldata.html', data=data)
 
+
+@app.route("/begin", methods =["POST"])
+def tripStarter():
+    dict.clear()
+    dict["source"] = request.form.get("source")
+    dict["destination"] = request.form.get("destination")
+    dict["departure"] = request.form.get("departure")
+    dict["arrival"] = request.form.get("arrival")
+    dict["lux"] = request.form.get("lux")
+    dict["passenger"] = request.form.get("passenger")
+    print(dict)
+    return redirect(url_for(request.form.get("transport")))
 
 
 
