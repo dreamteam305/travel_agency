@@ -6,11 +6,12 @@ app = Flask(__name__)
 
 mysql = MySQL()
 
+dict = {}
 
 
 # MySQL configurations
 app.config['MYSQL_DATABASE_USER'] = 'root'
-app.config['MYSQL_DATABASE_PASSWORD'] = 'samSam11'
+app.config['MYSQL_DATABASE_PASSWORD'] = 'bogdan322464'
 app.config['MYSQL_DATABASE_DB'] = 'travel_agency'
 app.config['MYSQL_DATABASE_HOST'] = 'localhost'
 mysql.init_app(app)
@@ -72,8 +73,12 @@ def main():
    flight_clas = mysql.connect().cursor()
    flight_clas.execute("SELECT distinct Flight_Class FROM `travel_agency`.`flight`;")
 
+   review = mysql.connect().cursor()
+   review.execute("SELECT distinct Detailed_Review FROM `travel_agency`.`Review`;")
+
    return render_template("index.html", flight_carr=flight_carrier.fetchall(), flight_src=flight_source.fetchall(),
-                          flight_dest=flight_destination.fetchall(), flight_c=flight_clas.fetchall())
+                          flight_dest=flight_destination.fetchall(), flight_c=flight_clas.fetchall(),
+                          Rev=review.fetchall())
 
 @app.route('/index.html')
 def index():
@@ -90,8 +95,12 @@ def index():
    flight_clas = mysql.connect().cursor()
    flight_clas.execute("SELECT distinct Flight_Class FROM `travel_agency`.`flight`;")
 
+   review = mysql.connect().cursor()
+   review.execute("SELECT distinct Detailed_Review FROM `travel_agency`.`Review`;")
+
    return render_template("index.html", flight_carr=flight_carrier.fetchall(), flight_src=flight_source.fetchall(),
-                          flight_dest=flight_destination.fetchall(), flight_c=flight_clas.fetchall())
+                          flight_dest=flight_destination.fetchall(), flight_c=flight_clas.fetchall(),
+                            Rev = review.fetchall())
 
 
 
@@ -176,6 +185,13 @@ def Authenticate():
     else:
      return  render_template('employee.html')
 
+@app.route('/employee.html')
+def employee():
+    cur = conn.cursor()
+    cur.execute("Delete From `travel_agency`.`Car` WHERE `Company` = 'favicon.ico' ")
+    conn.commit()
+    return render_template('employee.html')
+
 @app.route("/<filename>.html")
 def htmlRoute(filename):
 
@@ -193,6 +209,8 @@ def cardata():
    cur = conn.cursor()
    cur.execute("SELECT * FROM `travel_agency`.`Car`")
    data = cur.fetchall()
+   cur.execute("Delete From `travel_agency`.`Car` WHERE `Company` = 'favicon.ico' ")
+   conn.commit()
    return render_template('cardata.html', data=data)
 
 @app.route("/busdata.html")
@@ -216,6 +234,34 @@ def hoteldata():
    data = cur.fetchall()
    return render_template('hoteldata.html', data=data)
 
+@app.route('/insert/<string:insert>')
+def add(insert):
+	cur = conn.cursor()
+	cur.execute('''SELECT MAX(Car_ID) FROM `travel_agency`.`Car`''')
+	maxid = cur.fetchone() #(10,)
+	cur.execute('''INSERT INTO Car (Company, Park_Addr,Car_Type) 
+                      VALUES (%s, 'New York', 'regular')''',  insert)
+	conn.commit()
+	return render_template('insertcomplete.html')
+
+@app.route("/insert")
+def addACar():
+    cur = conn.cursor()
+    cur.execute("Delete From `travel_agency`.`Car` WHERE `Company` = 'favicon.ico' ")
+    conn.commit()
+    return render_template('insert.html')
+
+@app.route("/begin", methods =["POST"])
+def tripStarter():
+    dict.clear()
+    dict["source"] = request.form.get("source")
+    dict["destination"] = request.form.get("destination")
+    dict["departure"] = request.form.get("departure")
+    dict["arrival"] = request.form.get("arrival")
+    dict["lux"] = request.form.get("lux")
+    dict["passenger"] = request.form.get("passenger")
+    print(dict)
+    return redirect(url_for(request.form.get("transport")))
 
 
 
