@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -14,12 +13,12 @@
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
 	<meta name="author" content="FREEHTML5.CO" />
 
-  <!--
+  <!-- 
 	//////////////////////////////////////////////////////
 
-	FREE HTML5 TEMPLATE
+	FREE HTML5 TEMPLATE 
 	DESIGNED & DEVELOPED by FREEHTML5.CO
-
+		
 	Website: 		http://freehtml5.co/
 	Email: 			info@freehtml5.co
 	Twitter: 		http://twitter.com/fh5co
@@ -76,18 +75,17 @@
 			<div class="container">
 				<div class="nav-header">
 					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle dark"><i></i></a>
-					<h1 id="fh5co-logo"><a href="index.html"><i class="icon-airplane"></i>Travel</a></h1>
+					<h1 id="fh5co-logo"><a href="index.html"><i class="icon-airplane"></i>BNS~Travel</a></h1>
 					<!-- START #fh5co-menu-wrap -->
 					<nav id="fh5co-menu-wrap" role="navigation">
 						<ul class="sf-menu" id="fh5co-primary-menu">
 							<li><a href="index.html">Home</a></li>
 
-							<li><a href="flight.html">Flights</a></li>
-							<li class="active"><a href="hotel.html">Hotel</a></li>
+							<li><a href="hotel.html">Flights</a></li>
+							<li><a href="hotel.html">Hotel</a></li>
 							<li><a href="car.html">Car</a></li>
-							<li><a href="bus.html">Bus</a></li>
-							<li><a href="cruise.html"> Cruise </a></li>
-
+                            <li class="active"><a href="bus.html"> Bus </a></li>
+                            <li><a href="cruise.html"> Cruise </a></li>
 
 						</ul>
 					</nav>
@@ -96,10 +94,10 @@
 		</header>
 
 		<!-- end:header-top -->
-
+	
 		<div class="fh5co-hero">
 			<div class="fh5co-overlay"></div>
-			<div class="fh5co-cover" data-stellar-background-ratio="0.5" style="background-image: url(images/cover_bg_5.jpg);">
+			<div class="fh5co-cover" data-stellar-background-ratio="0.5" style="background-image: url(images/cover_bg_3.jpg);">
 				<div class="desc">
 					<div class="container">
 						<div class="row">
@@ -109,44 +107,39 @@
 
 								  <!-- Nav tabs -->
 								   <ul class="nav nav-tabs" role="tablist">
-
 								      <li role="presentation" class="active">
-								    	   <a href="#hotels" aria-controls="hotels" role="tab" data-toggle="tab">Hotels</a>
+								      	<a href="#flights" aria-controls="flights" role="tab" data-toggle="tab">Flights</a>
 								      </li>
 
 								   </ul>
 
 								   <!-- Tab panes -->
 									<div class="tab-content">
-
-									 <div role="tabpanel" class="tab-pane active" id="hotels">
-									 	<div class="row">
-
-											<div class="col-sm-12 mt">
-											<section>
-													<label for="class">Type:</label>
-													<select class="cs-select cs-skin-border">
-														<option value="" disabled selected>Hotel</option>
-														<option value="hotel">Hotel</option>
-														<option value="air_bnb">Air Bnb</option>
-													</select>
-											</section>
-											</div>
-
-											<div class="col-sm-12 mt">
-											<section>
+									 <div role="tabpanel" class="tab-pane active" id="flights">
+										<div class="row">
+											<div class="col-xxs-12 col-xs-6 mt">
+												<section>
 													<label for="class">From:</label>
 													<select class="cs-select cs-skin-border">
-														{% for name in AccoName %}
-+															<option value="{{name[0]}}">{{name[0]}}</option>
+														{% for i in flight_src %}
++															<option value="{{i[0]}}">{{i[0]}}</option>
 +														{% endfor %}}
 													</select>
 												</section>
 											</div>
-
+											<div class="col-xxs-12 col-xs-6 mt">
+												<section>
+													<label for="class">To:</label>
+													<select class="cs-select cs-skin-border">
+														{% for flight in flight_dest %}
++															<option value="{{flight[0]}}">{{flight[0]}}</option>
++														{% endfor %}}
+													</select>
+												</section>
+											</div>
 											<div class="col-xxs-12 col-xs-6 mt alternate">
 												<div class="input-field">
-													<label for="date-start">Return:</label>
+													<label for="date-start">Check In:</label>
 													<input type="text" class="form-control" id="date-start" placeholder="mm/dd/yyyy"/>
 												</div>
 											</div>
@@ -156,37 +149,127 @@
 													<input type="text" class="form-control" id="date-end" placeholder="mm/dd/yyyy"/>
 												</div>
 											</div>
-
-											<div class="col-xxs-12 col-xs-6 mt">
+											<div class="col-sm-12 mt">
 												<section>
-													<label for="class">Cost per Night:</label>
+													<label for="class">Carrier:</label>
 													<select class="cs-select cs-skin-border">
-														<option value="" disabled selected>$250</option>
-														<option value="$250">$250</option>
-														<option value="$290">$290</option>
-														<option value="$300">$300</option>
-														<option value="$500">$500</option>
+														{% for f_c in flight_carr %}
++															<option value="{{f_c[0]}}">{{f_c[0]}}</option>
++														{% endfor %}}
+													</select>
+												</section>
+											</div>
+											<div class="col-sm-12 mt">
+												<section>
+													<label for="class">Class:</label>
+													<select class="cs-select cs-skin-border">
+														{% for fc in flight_c %}
++															<option value="{{fc[0]}}">{{fc[0]}}</option>
++														{% endfor %}}
+													</select>
+												</section>
+											</div>
+											<div class="col-sm-12 mt">
+												<section>
+													<label for="class">Passengers:</label>
+													<select class="cs-select cs-skin-border">
+														<option value="" disabled selected>1</option>
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+														<option value="5">5</option>
+														<option value="6">6</option>
+
 													</select>
 												</section>
 											</div>
 
 											<div class="col-xs-12">
-												<input type="submit" class="btn btn-primary btn-block" value="Book Accommodaton">
+												<input type="submit" class="btn btn-primary btn-block" value="Book Flight">
 											</div>
 										</div>
 									 </div>
 
 
+
+									 <div role="tabpanel" class="tab-pane" id="packages">
+									 	<div class="row">
+											<div class="col-xxs-12 col-xs-6 mt">
+												<div class="input-field">
+													<label for="from">City:</label>
+													<input type="text" class="form-control" id="from-place" placeholder="Los Angeles, USA"/>
+												</div>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt">
+												<div class="input-field">
+													<label for="from">Destination:</label>
+													<input type="text" class="form-control" id="to-place" placeholder="Tokyo, Japan"/>
+												</div>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt alternate">
+												<div class="input-field">
+													<label for="date-start">Departs:</label>
+													<input type="text" class="form-control" id="date-start" placeholder="mm/dd/yyyy"/>
+												</div>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt alternate">
+												<div class="input-field">
+													<label for="date-end">Return:</label>
+													<input type="text" class="form-control" id="date-end" placeholder="mm/dd/yyyy"/>
+												</div>
+											</div>
+											<div class="col-sm-12 mt">
+												<section>
+													<label for="class">Class:</label>
+													<select class="cs-select cs-skin-border">
+														{% for flight in flight_dest %}
++															<option value="{{flight[0]}}">{{flight[0]}}</option>
++														{% endfor %}}
+													</select>
+												</section>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt">
+												<section>
+													<label for="class">Adult:</label>
+													<select class="cs-select cs-skin-border">
+														<option value="" disabled selected>1</option>
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+														<option value="5">5</option>
+														<option value="6">6</option>
+													</select>
+												</section>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt">
+												<section>
+													<label for="class">Children:</label>
+													<select class="cs-select cs-skin-border">
+														<option value="" disabled selected>1</option>
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+													</select>
+												</section>
+											</div>
+											<div class="col-xs-12">
+												<input type="submit" class="btn btn-primary btn-block" value="Search Packages">
+											</div>
+										</div>
+									 </div>
 									</div>
 
 								</div>
 							</div>
 							<div class="desc2 animate-box">
 								<div class="col-sm-7 col-sm-push-1 col-md-7 col-md-push-1">
-									<p>HandCrafted by <a href="http://frehtml5.co/" target="_blank" class="fh5co-site-name">FreeHTML5.co</a></p>
+									<!--<p>HandCrafted by <a href="http://frehtml5.co/" target="_blank" class="fh5co-site-name">FreeHTML5.co</a></p>-->
 									<h2>Exclusive Limited Time Offer</h2>
-									<h3>Fly to Hong Kong via Los Angeles, USA</h3>
-									<span class="price">$599</span>
+									<h3>Fly to Las Angeles via New York, USA</h3>
+									<span class="price">$305</span>
 									<!-- <p><a class="btn btn-primary btn-lg" href="#">Get Started</a></p> -->
 								</div>
 							</div>
@@ -196,7 +279,7 @@
 			</div>
 
 		</div>
-
+		
 
 
 
@@ -214,7 +297,7 @@
 			</div>
 		</footer>
 
-
+	
 
 	</div>
 	<!-- END fh5co-page -->

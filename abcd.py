@@ -125,6 +125,55 @@ def flight():
 
    return render_template('flight.html', flight_carr=flight_carrier.fetchall(), flight_src = flight_source.fetchall(), flight_dest= flight_destination.fetchall(), flight_c = flight_clas.fetchall())
 
+@app.route('/bus.html')
+def bus():
+   # cursor = mysql.connect().cursor()
+   # cursor.execute("SELECT * FROM Employee")
+   #Flight_Carrier, Flight_Fare, Flight_Class, Source_Airport_ID, Destination_Airport_ID
+   flight_carrier = mysql.connect().cursor()
+   flight_carrier.execute("SELECT distinct Flight_Carrier FROM `travel_agency`.`flight`;")
+   # flight_carr= flight_carrier.fetchall()
+
+   flight_source = mysql.connect().cursor()
+   flight_source.execute("SELECT distinct Source_Airport_ID FROM `travel_agency`.`flight`;")
+
+   flight_destination = mysql.connect().cursor()
+   flight_destination.execute("SELECT distinct Destination_Airport_ID FROM `travel_agency`.`flight`;")
+
+   flight_clas = mysql.connect().cursor()
+   flight_clas.execute("SELECT distinct Flight_Class FROM `travel_agency`.`flight`;")
+
+
+
+                          # "Flight_Carrier, Flight_Fare, Flight_Class, Source_Airport_ID, Destination_Airport_ID "
+
+   return render_template('bus.html', flight_carr=flight_carrier.fetchall(), flight_src = flight_source.fetchall(), flight_dest= flight_destination.fetchall(), flight_c = flight_clas.fetchall())
+
+@app.route('/cruise.html')
+def cruise():
+   # cursor = mysql.connect().cursor()
+   # cursor.execute("SELECT * FROM Employee")
+   #Flight_Carrier, Flight_Fare, Flight_Class, Source_Airport_ID, Destination_Airport_ID
+   flight_carrier = mysql.connect().cursor()
+   flight_carrier.execute("SELECT distinct Flight_Carrier FROM `travel_agency`.`flight`;")
+   # flight_carr= flight_carrier.fetchall()
+
+   flight_source = mysql.connect().cursor()
+   flight_source.execute("SELECT distinct Source_Airport_ID FROM `travel_agency`.`flight`;")
+
+   flight_destination = mysql.connect().cursor()
+   flight_destination.execute("SELECT distinct Destination_Airport_ID FROM `travel_agency`.`flight`;")
+
+   flight_clas = mysql.connect().cursor()
+   flight_clas.execute("SELECT distinct Flight_Class FROM `travel_agency`.`flight`;")
+
+
+
+                          # "Flight_Carrier, Flight_Fare, Flight_Class, Source_Airport_ID, Destination_Airport_ID "
+
+   return render_template('cruise.html', flight_carr=flight_carrier.fetchall(), flight_src = flight_source.fetchall(), flight_dest= flight_destination.fetchall(), flight_c = flight_clas.fetchall())
+
+
 
 @app.route("/<filename>.html")
 def htmlRoute(filename):
