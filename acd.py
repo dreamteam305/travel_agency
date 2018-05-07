@@ -1,12 +1,13 @@
 from flask import *
 from flaskext.mysql import MySQL
 
+
 app = Flask(__name__)
 
 
 mysql = MySQL()
 
-
+dict = {}
 
 # MySQL configurations
 app.config['MYSQL_DATABASE_USER'] = 'root'
@@ -164,60 +165,23 @@ def cruise():
    return render_template('cruise.html', CruiseCom=cruise_company.fetchall(), CruiseSrc = cruise_source.fetchall(), CruiseDes= cruise_destination.fetchall(), CruiseClass= cruise_class.fetchall())
 
 
-@app.route("/Authenticate")
-def Authenticate():
-    id = request.args.get('Employee_ID')
-    name = request.args.get('Employee_Name')
-    cursor = mysql.connect().cursor()
-    cursor.execute("SELECT * from Employee where Employee_ID='" + id + "' and Employee_Name='" + name + "'")
-    data = cursor.fetchone()
-    if data is None:
-     return "Id or Name is wrong"
-    else:
-     return  render_template('employee.html')
 
 @app.route("/<filename>.html")
 def htmlRoute(filename):
-
    return render_template(filename+".html")
 
-@app.route("/flightdata.html")
-def flightdata():
-   cur = conn.cursor()
-   cur.execute("SELECT * FROM `travel_agency`.`flight`")
-   data = cur.fetchall()
-   return render_template('flightdata.html', data=data)
 
-@app.route("/cardata.html")
-def cardata():
-   cur = conn.cursor()
-   cur.execute("SELECT * FROM `travel_agency`.`Car`")
-   data = cur.fetchall()
-   return render_template('cardata.html', data=data)
-
-@app.route("/busdata.html")
-def busdata():
-   cur = conn.cursor()
-   cur.execute("SELECT * FROM `travel_agency`.`Bus`")
-   data = cur.fetchall()
-   return render_template('busdata.html', data=data)
-
-@app.route("/cruisedata.html")
-def cruisedata():
-   cur = conn.cursor()
-   cur.execute("SELECT * FROM `travel_agency`.`Cruise`")
-   data = cur.fetchall()
-   return render_template('cruisedata.html', data=data)
-
-@app.route("/hoteldata.html")
-def hoteldata():
-   cur = conn.cursor()
-   cur.execute("SELECT * FROM `travel_agency`.`Accomodation`")
-   data = cur.fetchall()
-   return render_template('hoteldata.html', data=data)
-
-
-
+@app.route("/begin", methods =["POST"])
+def tripStarter():
+    dict.clear()
+    dict["source"] = request.form.get("source")
+    dict["destination"] = request.form.get("destination")
+    dict["departure"] = request.form.get("departure")
+    dict["arrival"] = request.form.get("arrival")
+    dict["lux"] = request.form.get("lux")
+    dict["passenger"] = request.form.get("passenger")
+    print(dict)
+    return redirect(url_for(request.form.get("transport")))
 
 
 
