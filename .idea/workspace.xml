@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37f3ec4e-a815-4b43-b3bd-0f80c53f42b8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/insert.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/insertcomplete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abcd.py" beforeDir="false" afterPath="$PROJECT_DIR$/abcd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/employee.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/employee.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="37f3ec4e-a815-4b43-b3bd-0f80c53f42b8" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,11 +35,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="abcd.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="busdata.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/busdata.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1989" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="abcd.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/abcd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="192" column="43" selection-start-line="192" selection-start-column="43" selection-end-line="192" selection-end-column="43" />
+            <state relative-caret-position="3284">
+              <caret line="198" lean-forward="true" selection-start-line="198" selection-end-line="198" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -115,15 +115,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/contact.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9129">
-              <caret line="537" column="17" selection-start-line="537" selection-start-column="17" selection-end-line="537" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -160,7 +151,7 @@
       <find>las</find>
       <find>99</find>
       <find>500</find>
-      <find />
+      <find>card nu</find>
       <find>Exc</find>
       <find>passe</find>
       <find>href</find>
@@ -210,9 +201,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="821" />
-    <option name="width" value="1109" />
-    <option name="height" value="1103" />
+    <option name="x" value="820" />
+    <option name="width" value="1110" />
+    <option name="height" value="1104" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -529,7 +520,14 @@
       <option name="project" value="LOCAL" />
       <updated>1525688414804</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Insertion of Car implemented for the demo">
+      <created>1525705039373</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1525705039373</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -545,17 +543,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="657" y="0" width="887" height="882" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32899868" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.34896553" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32905984" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12371134" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15559895" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="SciView" />
@@ -598,10 +596,10 @@
     <MESSAGE value="transaction begins with source destination data!" />
     <MESSAGE value="after pulling trip transaction partial implementation" />
     <MESSAGE value="add dict to python file" />
-    <option name="LAST_COMMIT_MESSAGE" value="add dict to python file" />
+    <MESSAGE value="Insertion of Car implemented for the demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Insertion of Car implemented for the demo" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/travel/car.html" />
     <entry file="file://$PROJECT_DIR$/travel/index.html" />
     <entry file="file://$PROJECT_DIR$/travel/index.html" />
     <entry file="file://$PROJECT_DIR$/travel/index.html" />
@@ -786,12 +784,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/abcd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="192" column="43" selection-start-line="192" selection-start-column="43" selection-end-line="192" selection-end-column="43" />
+        <state relative-caret-position="3284">
+          <caret line="198" lean-forward="true" selection-start-line="198" selection-end-line="198" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/busdata.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1989" />
       </provider>
     </entry>
   </component>
