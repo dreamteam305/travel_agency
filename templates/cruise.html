@@ -121,7 +121,7 @@
 												<section>
 													<label for="class">From:</label>
 													<select class="cs-select cs-skin-border">
-														{% for i in flight_src %}
+														{% for i in CruiseSrc %}
 +															<option value="{{i[0]}}">{{i[0]}}</option>
 +														{% endfor %}}
 													</select>
@@ -131,8 +131,8 @@
 												<section>
 													<label for="class">To:</label>
 													<select class="cs-select cs-skin-border">
-														{% for flight in flight_dest %}
-+															<option value="{{flight[0]}}">{{flight[0]}}</option>
+														{% for i in CruiseDes %}
++															<option value="{{i[0]}}">{{i[0]}}</option>
 +														{% endfor %}}
 													</select>
 												</section>
@@ -153,8 +153,8 @@
 												<section>
 													<label for="class">Carrier:</label>
 													<select class="cs-select cs-skin-border">
-														{% for f_c in flight_carr %}
-+															<option value="{{f_c[0]}}">{{f_c[0]}}</option>
+														{% for i in CruiseCom %}
++															<option value="{{i[0]}}">{{i[0]}}</option>
 +														{% endfor %}}
 													</select>
 												</section>
@@ -163,8 +163,8 @@
 												<section>
 													<label for="class">Class:</label>
 													<select class="cs-select cs-skin-border">
-														{% for fc in flight_c %}
-+															<option value="{{fc[0]}}">{{fc[0]}}</option>
+														{% for i in CruiseClass %}
++															<option value="{{i[0]}}">{{i[0]}}</option>
 +														{% endfor %}}
 													</select>
 												</section>
@@ -223,8 +223,8 @@
 												<section>
 													<label for="class">Class:</label>
 													<select class="cs-select cs-skin-border">
-														{% for flight in flight_dest %}
-+															<option value="{{flight[0]}}">{{flight[0]}}</option>
+														{% for i in CruiseDes %}
++															<option value="{{i[0]}}">{{i[0]}}</option>
 +														{% endfor %}}
 													</select>
 												</section>

@@ -21,7 +21,6 @@ conn = mysql.connect()
 def hotel():
    accomodation_names = mysql.connect().cursor()
    accomodation_names.execute("SELECT distinct Accomodation_Name FROM `travel_agency`.`Accomodation`;")
-   # flight_carr= flight_carrier.fetchall()
 
    accomodation_type = mysql.connect().cursor()
    accomodation_type.execute("SELECT distinct Accomodation_Type FROM `travel_agency`.`Accomodation`;")
@@ -31,7 +30,7 @@ def hotel():
 
 
 
-   # "Flight_Carrier, Flight_Fare, Flight_Class, Source_Airport_ID, Destination_Airport_ID "
+
 
    return render_template("hotel.html", AccoName=accomodation_names.fetchall(), AccoType=accomodation_type.fetchall(),
                           AccoRate = rate_per_night.fetchall())
@@ -40,7 +39,6 @@ def hotel():
 def car():
    car_company = mysql.connect().cursor()
    car_company.execute("SELECT distinct Company FROM `travel_agency`.`Car`;")
-   # flight_carr= flight_carrier.fetchall()
 
    car_city = mysql.connect().cursor()
    car_city.execute("SELECT distinct Park_Addr FROM `travel_agency`.`Car`;")
@@ -63,7 +61,7 @@ def a():
 def main():
    flight_carrier = mysql.connect().cursor()
    flight_carrier.execute("SELECT distinct Flight_Carrier FROM `travel_agency`.`flight`;")
-   # flight_carr= flight_carrier.fetchall()
+
 
    flight_source = mysql.connect().cursor()
    flight_source.execute("SELECT distinct Source_Airport_ID FROM `travel_agency`.`flight`;")
@@ -73,8 +71,6 @@ def main():
 
    flight_clas = mysql.connect().cursor()
    flight_clas.execute("SELECT distinct Flight_Class FROM `travel_agency`.`flight`;")
-
-   # "Flight_Carrier, Flight_Fare, Flight_Class, Source_Airport_ID, Destination_Airport_ID "
 
    return render_template("index.html", flight_carr=flight_carrier.fetchall(), flight_src=flight_source.fetchall(),
                           flight_dest=flight_destination.fetchall(), flight_c=flight_clas.fetchall())
@@ -83,7 +79,7 @@ def main():
 def index():
    flight_carrier = mysql.connect().cursor()
    flight_carrier.execute("SELECT distinct Flight_Carrier FROM `travel_agency`.`flight`;")
-   # flight_carr= flight_carrier.fetchall()
+
 
    flight_source = mysql.connect().cursor()
    flight_source.execute("SELECT distinct Source_Airport_ID FROM `travel_agency`.`flight`;")
@@ -93,8 +89,6 @@ def index():
 
    flight_clas = mysql.connect().cursor()
    flight_clas.execute("SELECT distinct Flight_Class FROM `travel_agency`.`flight`;")
-
-   # "Flight_Carrier, Flight_Fare, Flight_Class, Source_Airport_ID, Destination_Airport_ID "
 
    return render_template("index.html", flight_carr=flight_carrier.fetchall(), flight_src=flight_source.fetchall(),
                           flight_dest=flight_destination.fetchall(), flight_c=flight_clas.fetchall())
@@ -103,12 +97,10 @@ def index():
 
 @app.route('/flight.html')
 def flight():
-   # cursor = mysql.connect().cursor()
-   # cursor.execute("SELECT * FROM Employee")
-   #Flight_Carrier, Flight_Fare, Flight_Class, Source_Airport_ID, Destination_Airport_ID
+
    flight_carrier = mysql.connect().cursor()
    flight_carrier.execute("SELECT distinct Flight_Carrier FROM `travel_agency`.`flight`;")
-   # flight_carr= flight_carrier.fetchall()
+
 
    flight_source = mysql.connect().cursor()
    flight_source.execute("SELECT distinct Source_Airport_ID FROM `travel_agency`.`flight`;")
@@ -118,60 +110,58 @@ def flight():
 
    flight_clas = mysql.connect().cursor()
    flight_clas.execute("SELECT distinct Flight_Class FROM `travel_agency`.`flight`;")
-
-
-
-                          # "Flight_Carrier, Flight_Fare, Flight_Class, Source_Airport_ID, Destination_Airport_ID "
 
    return render_template('flight.html', flight_carr=flight_carrier.fetchall(), flight_src = flight_source.fetchall(), flight_dest= flight_destination.fetchall(), flight_c = flight_clas.fetchall())
 
 @app.route('/bus.html')
 def bus():
-   # cursor = mysql.connect().cursor()
-   # cursor.execute("SELECT * FROM Employee")
-   #Flight_Carrier, Flight_Fare, Flight_Class, Source_Airport_ID, Destination_Airport_ID
-   flight_carrier = mysql.connect().cursor()
-   flight_carrier.execute("SELECT distinct Flight_Carrier FROM `travel_agency`.`flight`;")
-   # flight_carr= flight_carrier.fetchall()
+   # # cursor = mysql.connect().cursor()
+   # # cursor.execute("SELECT * FROM Employee")
+   # #Flight_Carrier, Flight_Fare, Flight_Class, Source_Airport_ID, Destination_Airport_ID
+   # bus_company = mysql.connect().cursor()
+   # bus_company.execute("SELECT distinct Bus_Company FROM `travel_agency`.`Bus`;")
+   # # flight_carr= flight_carrier.fetchall()
+   #
+   # bus_source = mysql.connect().cursor()
+   # bus_source.execute("SELECT distinct Source_Bus_Stop FROM `travel_agency`.`Bus`;")
+   #
+   # bus_destination = mysql.connect().cursor()
+   # bus_destination.execute("SELECT distinct Destination_Bus_Stop FROM `travel_agency`.`Bus`;")
+   #
+   # return render_template('bus.html', flight_carr = bus_company.fetchall(), flight_src = bus_source.fetchall(), flight_dest = bus_destination.fetchall(), flight_c=bus_destination.fetchall() )
+   bus_company = mysql.connect().cursor()
+   bus_company.execute("SELECT distinct Bus_Company FROM `travel_agency`.`Bus`;")
 
-   flight_source = mysql.connect().cursor()
-   flight_source.execute("SELECT distinct Source_Airport_ID FROM `travel_agency`.`flight`;")
+   bus_source = mysql.connect().cursor()
+   bus_source.execute("SELECT distinct Source_Bus_Stop FROM `travel_agency`.`Bus`;")
 
-   flight_destination = mysql.connect().cursor()
-   flight_destination.execute("SELECT distinct Destination_Airport_ID FROM `travel_agency`.`flight`;")
+   bus_destination = mysql.connect().cursor()
+   bus_destination.execute("SELECT distinct Destination_Bus_Stop FROM `travel_agency`.`Bus`;")
 
-   flight_clas = mysql.connect().cursor()
-   flight_clas.execute("SELECT distinct Flight_Class FROM `travel_agency`.`flight`;")
+   return render_template('bus.html', BusCom =bus_company.fetchall(), BusSrc = bus_source.fetchall(),
+                          BusDes = bus_destination.fetchall())
 
-
-
-                          # "Flight_Carrier, Flight_Fare, Flight_Class, Source_Airport_ID, Destination_Airport_ID "
-
-   return render_template('bus.html', flight_carr=flight_carrier.fetchall(), flight_src = flight_source.fetchall(), flight_dest= flight_destination.fetchall(), flight_c = flight_clas.fetchall())
 
 @app.route('/cruise.html')
 def cruise():
    # cursor = mysql.connect().cursor()
    # cursor.execute("SELECT * FROM Employee")
    #Flight_Carrier, Flight_Fare, Flight_Class, Source_Airport_ID, Destination_Airport_ID
-   flight_carrier = mysql.connect().cursor()
-   flight_carrier.execute("SELECT distinct Flight_Carrier FROM `travel_agency`.`flight`;")
+   cruise_company = mysql.connect().cursor()
+   cruise_company.execute("SELECT distinct Cruise_Company FROM `travel_agency`.`Cruise`;")
    # flight_carr= flight_carrier.fetchall()
 
-   flight_source = mysql.connect().cursor()
-   flight_source.execute("SELECT distinct Source_Airport_ID FROM `travel_agency`.`flight`;")
+   cruise_source = mysql.connect().cursor()
+   cruise_source.execute("SELECT distinct Source_Port FROM `travel_agency`.`Cruise`;")
 
-   flight_destination = mysql.connect().cursor()
-   flight_destination.execute("SELECT distinct Destination_Airport_ID FROM `travel_agency`.`flight`;")
+   cruise_destination = mysql.connect().cursor()
+   cruise_destination.execute("SELECT distinct Destination_Port FROM `travel_agency`.`Cruise`;")
 
-   flight_clas = mysql.connect().cursor()
-   flight_clas.execute("SELECT distinct Flight_Class FROM `travel_agency`.`flight`;")
+   cruise_class = mysql.connect().cursor()
+   cruise_class.execute("SELECT distinct Cruise_Class FROM `travel_agency`.`Cruise`;")
 
 
-
-                          # "Flight_Carrier, Flight_Fare, Flight_Class, Source_Airport_ID, Destination_Airport_ID "
-
-   return render_template('cruise.html', flight_carr=flight_carrier.fetchall(), flight_src = flight_source.fetchall(), flight_dest= flight_destination.fetchall(), flight_c = flight_clas.fetchall())
+   return render_template('cruise.html', CruiseCom=cruise_company.fetchall(), CruiseSrc = cruise_source.fetchall(), CruiseDes= cruise_destination.fetchall(), CruiseClass= cruise_class.fetchall())
 
 
 

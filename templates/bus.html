@@ -80,11 +80,10 @@
 					<nav id="fh5co-menu-wrap" role="navigation">
 						<ul class="sf-menu" id="fh5co-primary-menu">
 							<li><a href="index.html">Home</a></li>
-
-							<li><a href="hotel.html">Flights</a></li>
+                            <li><a href="flight.html">Flights</a></li>
 							<li><a href="hotel.html">Hotel</a></li>
 							<li><a href="car.html">Car</a></li>
-                            <li class="active"><a href="bus.html"> Bus </a></li>
+                            <li class="active"><a href="bus.html">Bus</a></li>
                             <li><a href="cruise.html"> Cruise </a></li>
 
 						</ul>
@@ -108,20 +107,20 @@
 								  <!-- Nav tabs -->
 								   <ul class="nav nav-tabs" role="tablist">
 								      <li role="presentation" class="active">
-								      	<a href="#flights" aria-controls="flights" role="tab" data-toggle="tab">Flights</a>
+								      	<a href="#bus" aria-controls="bus" role="tab" data-toggle="tab">Bus</a>
 								      </li>
 
 								   </ul>
 
 								   <!-- Tab panes -->
 									<div class="tab-content">
-									 <div role="tabpanel" class="tab-pane active" id="flights">
+									 <div role="tabpanel" class="tab-pane active" id="bus">
 										<div class="row">
 											<div class="col-xxs-12 col-xs-6 mt">
 												<section>
 													<label for="class">From:</label>
 													<select class="cs-select cs-skin-border">
-														{% for i in flight_src %}
+														{% for i in BusSrc %}
 +															<option value="{{i[0]}}">{{i[0]}}</option>
 +														{% endfor %}}
 													</select>
@@ -131,8 +130,8 @@
 												<section>
 													<label for="class">To:</label>
 													<select class="cs-select cs-skin-border">
-														{% for flight in flight_dest %}
-+															<option value="{{flight[0]}}">{{flight[0]}}</option>
+														{% for i in BusDes %}
++															<option value="{{i[0]}}">{{i[0]}}</option>
 +														{% endfor %}}
 													</select>
 												</section>
@@ -151,24 +150,15 @@
 											</div>
 											<div class="col-sm-12 mt">
 												<section>
-													<label for="class">Carrier:</label>
+													<label for="class">Company:</label>
 													<select class="cs-select cs-skin-border">
-														{% for f_c in flight_carr %}
-+															<option value="{{f_c[0]}}">{{f_c[0]}}</option>
+														{% for i in BusCom %}
++															<option value="{{i[0]}}">{{i[0]}}</option>
 +														{% endfor %}}
 													</select>
 												</section>
 											</div>
-											<div class="col-sm-12 mt">
-												<section>
-													<label for="class">Class:</label>
-													<select class="cs-select cs-skin-border">
-														{% for fc in flight_c %}
-+															<option value="{{fc[0]}}">{{fc[0]}}</option>
-+														{% endfor %}}
-													</select>
-												</section>
-											</div>
+
 											<div class="col-sm-12 mt">
 												<section>
 													<label for="class">Passengers:</label>
@@ -223,8 +213,8 @@
 												<section>
 													<label for="class">Class:</label>
 													<select class="cs-select cs-skin-border">
-														{% for flight in flight_dest %}
-+															<option value="{{flight[0]}}">{{flight[0]}}</option>
+														{% for i in BusDes %}
++															<option value="{{i[0]}}">{{i[0]}}</option>
 +														{% endfor %}}
 													</select>
 												</section>
