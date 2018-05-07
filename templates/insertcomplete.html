@@ -83,207 +83,39 @@
 			<div class="container">
 				<div class="nav-header">
 					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle dark"><i></i></a>
-					<h1 id="fh5co-logo"><a href="index.html"><i class="icon-airplane"></i>BNS~Travel</a></h1>
+					<h1 id="fh5co-logo"><a><i class="icon-airplane"></i>BNS~Travel</a></h1>
 					<!-- START #fh5co-menu-wrap -->
 					<nav id="fh5co-menu-wrap" role="navigation">
 						<ul class="sf-menu" id="fh5co-primary-menu">
-							<li class="active"><a href="index.html">Home</a></li>
+							<!--<li class="active"><a href="index.html">Home</a></li>-->
 
-							<li><a href="flight.html">Flights</a></li>
-							<li><a href="hotel.html">Hotel</a></li>
-							<li><a href="car.html">Car</a></li>
-							<li><a href="bus.html">Bus</a></li>
-							<li><a href="cruise.html"> Cruise </a></li>
-							<li><a href="card.html">Payment</a></li>
+							<!--<li><a href="flightdata.html">Flights</a></li>-->
+							<!--<li><a href="hoteldata.html">Hotel</a></li>-->
+							<!--<li><a href="cardata.html">Car</a></li>-->
+							<!--<li><a href="busdata.html">Bus</a></li>-->
+							<!--<li><a href="cruisedata.html"> Cruise </a></li>-->
+							<!--<li><a href="insert">Insert</a> </li>-->
+							<!--<li><a href="carddata.html">Payment</a></li>-->
 
-							<!--<li><a href="blog.html">Blog</a></li>
-							<li><a href="contact.html">Contact</a></li>-->
 						</ul>
 					</nav>
 				</div>
 			</div>
 		</header>
 
-		<!-- end:header-top -->
-	
-		<div class="fh5co-hero">
-			<div class="fh5co-overlay"></div>
-			<div class="fh5co-cover" data-stellar-background-ratio="0.5" style="background-image: url(images/cover_bg_1.jpg);">
-				<div class="desc">
-					<div class="container">
-						<div class="row">
-							<div class="col-sm-5 col-md-5">
-								<div class="tabulation animate-box">
 
-								  <!-- Nav tabs -->
-
-									<ul class="nav nav-tabs" role="tablist">
-								      <li role="presentation" class="active">
-								      	<a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a>
-								      </li>
-
-								   </ul>
-								   <!--<ul class="nav nav-tabs" role="tablist">
-								      <li role="presentation" class="active">
-								      	<a href="#flights" aria-controls="Welcome Page" role="tab" data-toggle="tab">Flights</a>
-								      </li>
-								      -->
-								   <!--   <li role="presentation">
-								    	   <a href="#packages" aria-controls="packages" role="tab" data-toggle="tab">Packages</a>
-								      </li>-->
-								 <!--  </ul>
--->
-								   <!-- Tab panes -->
-									<form method ="post" action="/begin">
-									<div class="tab-content">
-									 <div role="tabpanel" class="tab-pane active" id="flights">
-										<div class="row">
-											<div class="col-xxs-12 col-xs-6 mt">
-												<section>
-													<label for="class">From:</label>
-													<select class="cs-select cs-skin-border" name="source">
-														{% for i in flight_src %}
-+															<option value="{{i[0]}}">{{i[0]}}</option>
-+														{% endfor %}}
-													</select>
-												</section>
-											</div>
-											<div class="col-xxs-12 col-xs-6 mt">
-												<section>
-													<label for="class">To:</label>
-													<select class="cs-select cs-skin-border" name="destination">
-														{% for flight in flight_dest %}
-+															<option value="{{flight[0]}}">{{flight[0]}}</option>
-+														{% endfor %}}
-													</select>
-												</section>
-											</div>
-											<div class="col-xxs-12 col-xs-6 mt alternate">
-												<div class="input-field">
-													<label for="date-start">Check In:</label>
-													<input type="text" class="form-control" id="date-start" placeholder="mm/dd/yyyy" name="departure"/>
-												</div>
-											</div>
-											<div class="col-xxs-12 col-xs-6 mt alternate">
-												<div class="input-field">
-													<label for="date-end">Check Out:</label>
-													<input type="text" class="form-control" id="date-end" placeholder="mm/dd/yyyy" name="arrival"/>
-												</div>
-											</div>
-											<div class="col-sm-12 mt">
-												<section>
-													<label for="class">Class:</label>
-													<select class="cs-select cs-skin-border" name="lux">
-														{% for fc in flight_c %}
-															<option value="{{fc[0]}}">{{fc[0]}}</option>
-														{% endfor %}}
-													</select>
-												</section>
-											</div>
-											<div class="col-xxs-12 col-xs-6 mt">
-												<section>
-													<label for="class">Passengers:</label>
-													<select class="cs-select cs-skin-border" name="passenger">
-														<option value="" disabled selected>1</option>
-														<option value="1">1</option>
-														<option value="2">2</option>
-														<option value="3">3</option>
-														<option value="4">4</option>
-														<option value="5">5</option>
-														<option value="6">6</option>
-													</select>
-												</section>
-											</div>
-
-											<div class="col-xxs-12 col-xs-6 mt">
-												<section>
-													<label for="class">Mode Of Transport:</label>
-													<select class="cs-select cs-skin-border" name="transport" required>
-														<option value="flight">Flight</option>
-														<option value="cruise">Cruise</option>
-														<option value="bus">Bus</option>
-														<option value="car">Car</option>
-													</select>
-												</section>
-											</div>
-
-
-
-
-											<div class="col-xs-12">
-												<input type="submit" class="btn btn-primary btn-block" value="Start Booking">
-											</div>
-										</div>
-									 </div>
-									</div>
-									</form>
-
-								</div>
-							</div>
-							<div class="desc2 animate-box">
-								<div class="col-sm-7 col-sm-push-1 col-md-7 col-md-push-1">
-									<!--<p>HandCrafted by <a href="http://frehtml5.co/" target="_blank" class="fh5co-site-name">FreeHTML5.co</a></p>-->
-									<h2>WELCOME TO OUR TRAVEL AGENCY</h2>
-									<h3>Plan your dream travels here 😎
-									</h3>
-									<!--<span class="price">$599</span>-->
-									<!-- <p><a class="btn btn-primary btn-lg" href="#">Get Started</a></p> -->
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-		</div>
 		
 
 		<div id="fh5co-testimonial" style="background-image:url(images/img_bg_1.jpg);">
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Happy Clients</h2>
+					<h2>Insertion Has Completed</h2>
+                    <h2>Click on the Back Button to Return to Insertion Page</h2>
+
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-4">
-					<div class="box-testimony animate-box">
-						<blockquote>
-							<span class="quote"><span><i class="icon-quotes-right"></i></span></span>
-							<p>&ldquo;Best travel agency you will find. So convienient! My trip to San Francisco was amazing&rdquo;</p>
-						</blockquote>
-						<p class="author">Bogdan Oleinikov, CEO <span class="subtext">Creative Director</span></p>
-					</div>
-					
-				</div>
-				<div class="col-md-4">
-					<div class="box-testimony animate-box">
-						<blockquote>
-							{% for i in Rev %}
-							<span class="quote"><span><i class="icon-quotes-right"></i></span></span>
-							<p>&ldquo;
 
-								<p> {{i[0]}}</p>
-
-							</p>
-							{% endfor %}}
-						</blockquote>
-						<p class="author">Nafiul Azim, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span></p>
-					</div>
-					
-					
-				</div>
-				<div class="col-md-4">
-					<div class="box-testimony animate-box">
-						<blockquote>
-							<span class="quote"><span><i class="icon-quotes-right"></i></span></span>
-							<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
-						</blockquote>
-						<p class="author">SYED JAMAL, Founder <a href="#">FREEHTML5.co</a> <span class="subtext">Creative Director</span></p>
-					</div>
-					
-				</div>
-			</div>
 		</div>
 	</div>
 		<footer>
